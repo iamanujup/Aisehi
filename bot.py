@@ -45,7 +45,7 @@ async def start(message: types.Message):
 
 
 async def home(request):
-    return web.FileResponse("web/index.html")
+    return web.FileResponse("index.html")
 
 
 async def health(request):
